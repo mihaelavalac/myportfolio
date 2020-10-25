@@ -4,7 +4,11 @@
   background-color:rgb(124, 189, 189);
   padding: 10px;
   font-size: medium;
+  box-shadow: none;
+  outline: none;
   }
+  
+
 
 body {
   background-color: rgb(187, 206, 166);
@@ -12,9 +16,7 @@ body {
 h1 {
   color:rgb(124, 189, 189); 
 }
-nav-link {
-  color: rgb(163, 187, 136);
-}
+
 .indeximg {
   float: left;
   margin: 20px;
@@ -50,7 +52,7 @@ footer {
   background-color:rgb(124, 189, 189);
   border: hidden;
   padding: 10px;
-  text: medium, bold;
+  font: medium, bold;
 }
 
 @media screen and (min-width: 400px) {
