@@ -6,15 +6,16 @@
   }
 
 body {
-  background: rgb(165, 210, 216);
-  overflow: auto;
+  background-color: antiquewhite;
 }
 
 .indeximg {
   float: left;
   margin: 20px;
 }
-
+.portfolio img {
+  padding-bottom:15px;
+}
 p {
   margin: 10px;
 }
@@ -22,7 +23,7 @@ p {
 .container {
 
   padding:20px;
-  width: 750px;
+  width: 850px;
   height: auto;
   background-color: white;
   margin-top: 100px;
@@ -36,8 +37,27 @@ footer {
   background-color: aqua;
   text-align: center;
   width: 100%;
+  color: white;
 }
 
 #submit {
-  background-color: rgb(95, 202, 202);
+  background-color: rgb(2, 252, 252);
+  border: hidden;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 510px) and (max-width: 992px) {
+  .container {
+    width: 550px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
 }
