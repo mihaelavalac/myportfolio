@@ -1,14 +1,20 @@
 .navbar-name {
   color:white;
-  background-color:aqua;
+  font-size: 16px, bold;
+  background-color:rgb(124, 189, 189);
   padding: 10px;
   font-size: medium;
   }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgb(187, 206, 166);
 }
-
+h1 {
+  color:rgb(124, 189, 189); 
+}
+nav-link {
+  color: rgb(163, 187, 136);
+}
 .indeximg {
   float: left;
   margin: 20px;
@@ -34,15 +40,17 @@ footer {
   position:fixed;
   padding-top: 20px;
   bottom: 0px;
-  background-color: aqua;
+  background-color:rgb(124, 189, 189);
   text-align: center;
   width: 100%;
   color: white;
 }
 
 #submit {
-  background-color: rgb(2, 252, 252);
+  background-color:rgb(124, 189, 189);
   border: hidden;
+  padding: 10px;
+  text: medium, bold;
 }
 
 @media screen and (min-width: 400px) {
