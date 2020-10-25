@@ -1,0 +1,43 @@
+.navbar-name {
+  color:white;
+  background-color:aqua;
+  padding: 10px;
+  font-size: medium;
+  }
+
+body {
+  background: rgb(165, 210, 216);
+  overflow: auto;
+}
+
+.indeximg {
+  float: left;
+  margin: 20px;
+}
+
+p {
+  margin: 10px;
+}
+
+.container {
+
+  padding:20px;
+  width: 750px;
+  height: auto;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+footer {
+  position:fixed;
+  padding-top: 20px;
+  bottom: 0px;
+  background-color: aqua;
+  text-align: center;
+  width: 100%;
+}
+
+#submit {
+  background-color: rgb(95, 202, 202);
+}
