@@ -1,5 +1,5 @@
 
-  /*Navbar elements properties.*/
+/*Navbar elements properties.*/
  header a span {
   color:white;
   font-size: 16px, bold;
@@ -16,6 +16,7 @@ a:hover{
 body {
   background-color: rgb(187, 206, 166);
 }
+
 /*The color of the title of the main conten.*/
 h1 {
   color:rgb(124, 189, 189); 
@@ -26,14 +27,17 @@ h1 {
   float: left;
   margin: 20px;
 }
+
 /* This makes space in the buttom between the images of portfolio file.*/
 .portfolio img {
   padding-bottom:15px;
 }
+
 /*This makes space between the paragraphs and other elements.*/
 p {
   margin: 10px;
 }
+
 /*These are all the properties of the container in the main element.*/
 .container {
   padding:20px;
@@ -54,6 +58,7 @@ footer {
   width: 100%;
   color: white;
 }
+
 /*Properties of the submint button in the contact file*/
 #submit {
   background-color:rgb(124, 189, 189);
@@ -69,6 +74,7 @@ footer {
     width: 90%;
   }
 }
+
 /*Set the screen size for medium devices, like tablets.*/
 @media screen and (min-width: 510px) and (max-width: 992px) {
   .container {
