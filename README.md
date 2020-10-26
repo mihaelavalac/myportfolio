@@ -20,13 +20,13 @@ The contact.html dispays a form which allow the user to contact me by leavin the
 
 Also in the main content I crated a fixed footer which contains the copyright content.
 
-<img  src="img/contact.png">
+<img  src="img/footer.png">
 
 # Level of Dificulty
 This project required mor time for research (the meaning of different bootstrap clases and elements and how to change them) than for writing the program, therefore I found it not as compicated. It is a very good starting point for the beginners. 
 
 # Deployment link
-<a href="https://mihaelavalac.github.io/myportfolio/>Click here to go directly to the project!
+https://mihaelavalac.github.io/myportfolio/
 
 
 
