@@ -1,40 +1,41 @@
 
-  
+  /*Navbar elements properties.*/
  header a span {
-   color:white;
+  color:white;
   font-size: 16px, bold;
   background-color:rgb(124, 189, 189);
   padding: 10px;
-  font-size: medium;
-  box-shadow: none;
-  outline: none;
  } 
 
-
+ /*This make the navbar title to not change its visual apearence when cliked or hovered.*/
 a:hover{
   text-decoration: none;
 }
 
+/*This define the background color of the page.*/
 body {
   background-color: rgb(187, 206, 166);
 }
+/*The color of the title of the main conten.*/
 h1 {
   color:rgb(124, 189, 189); 
 }
 
+/*This allows the text of the index file to surround the image.*/
 .indeximg {
   float: left;
   margin: 20px;
 }
+/* This makes space in the buttom between the images of portfolio file.*/
 .portfolio img {
   padding-bottom:15px;
 }
+/*This makes space between the paragraphs and other elements.*/
 p {
   margin: 10px;
 }
-
+/*These are all the properties of the container in the main element.*/
 .container {
-
   padding:20px;
   width: 850px;
   height: auto;
@@ -43,6 +44,7 @@ p {
   margin-bottom: 150px;
 }
 
+/*The properties of the footer of the page.*/
 footer {
   position:fixed;
   padding-top: 20px;
@@ -52,25 +54,29 @@ footer {
   width: 100%;
   color: white;
 }
-
+/*Properties of the submint button in the contact file*/
 #submit {
   background-color:rgb(124, 189, 189);
   border: hidden;
   padding: 10px;
-  font: medium, bold;
+  font:  medium, bold;
+  color: white;
 }
 
+/*Set the screen size for the small devices, ike phones.*/
 @media screen and (min-width: 400px) {
   .container {
     width: 90%;
   }
 }
-
+/*Set the screen size for medium devices, like tablets.*/
 @media screen and (min-width: 510px) and (max-width: 992px) {
   .container {
     width: 550px;
   }
 }
+
+/*Set the screen size for large devices, like computers.*/
 @media screen and (min-width: 992px) {
   .container {
     max-width: 750px;
