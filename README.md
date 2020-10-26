@@ -9,8 +9,8 @@ In the header is incloded the navigation bar that consist of the title "Mihaela 
 
 The main content displays a container which includes different information for each file. The index.html includes the "About Me" content which contains a profile picture, a paragraph with information about me, and the icons which are linked to my github and linkendin account. The portfolio.html displays 4 pictures to which I added an alt tag for accessibility. The contact.html dispays a form which allow the user to contact me by leavin their Name, Email, and the message. 
 
-<img  width="600" height="450" src="img/about_me.png">
-<img  width="600" height="450" src="img/pictures.png">
-<img  width="600" height="450"  src="img/contact.png">
+<img  width="450" height="400" src="img/about_me.png">
+<img  width="450" height="400" src="img/pictures.png">
+<img  width="450" height="400"  src="img/contact.png">
 
 
