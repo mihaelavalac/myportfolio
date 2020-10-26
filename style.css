@@ -1,14 +1,19 @@
-.navbar-name {
-  color:white;
+
+  
+ header a span {
+   color:white;
   font-size: 16px, bold;
   background-color:rgb(124, 189, 189);
   padding: 10px;
   font-size: medium;
   box-shadow: none;
   outline: none;
-  }
-  
+ } 
 
+
+a:hover{
+  text-decoration: none;
+}
 
 body {
   background-color: rgb(187, 206, 166);
