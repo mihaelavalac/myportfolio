@@ -39,7 +39,7 @@ p {
 }
 
 /*These are all the properties of the container in the main element.*/
-.container {
+.container-about {
   padding:20px;
   width: 850px;
   height: auto;
