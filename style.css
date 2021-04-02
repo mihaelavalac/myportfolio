@@ -28,6 +28,10 @@ h1 {
   margin: 20px;
 }
 
+form {
+  width: fit-content;
+  height: 50em;
+}
 /* This makes space in the buttom between the images of portfolio file.*/
 .portfolio img {
   padding-bottom:15px;
